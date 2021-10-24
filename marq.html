@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="javascript">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malu Boss</title>
+    <style>
+        * {
+            background-color: black;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        marquee {
+            color: #fff;
+            font-size: 175px;
+            animation: color-change 1s infinite;
+        }
+
+        @keyframes color-change {
+            0% {
+                color: red;
+            }
+
+            50% {
+                color: blue;
+            }
+
+            100% {
+                color: yellow;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <marquee behavior="scroll" scrollamount="35" direction="left">Malu Boss!!! Udah gede kok banyak ngeluh</marquee>
+</body>
+
+</html>
